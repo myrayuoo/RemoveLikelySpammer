@@ -49,7 +49,7 @@ module.exports = class RemoveLikelySpammer {
         raw += messages[x].innerHTML;
 
       node.innerHTML = raw;
-    } catch {}
+    } catch (ex) {console.error(ex);}
   }
 
   expandAll(nodes) {
