@@ -6,7 +6,7 @@
  * @invite lith
  * @authorId 921558491255148615
  * @authorLink https://verlox.cc
- * @website https://github.com/verlox/RemoveLikelySpammer
+ * @source https://github.com/verlox/RemoveLikelySpammer
  */
 
 module.exports = class RemoveLikelySpammer {
